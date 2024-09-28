@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ws101-roperez-navbar/static/css/main.a6740e7c.css",
+    "main.js": "/ws101-roperez-navbar/static/js/main.855b48d7.js",
+    "static/media/image.png": "/ws101-roperez-navbar/static/media/image.a9a34e46571ec6eb0dad.png",
+    "static/media/background.png": "/ws101-roperez-navbar/static/media/background.5217d63e3f787084c0c3.png",
+    "static/media/contact.png": "/ws101-roperez-navbar/static/media/contact.38e9b6172a4e00caadd7.png",
+    "index.html": "/ws101-roperez-navbar/index.html",
+    "main.a6740e7c.css.map": "/ws101-roperez-navbar/static/css/main.a6740e7c.css.map",
+    "main.855b48d7.js.map": "/ws101-roperez-navbar/static/js/main.855b48d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6740e7c.css",
+    "static/js/main.855b48d7.js"
+  ]
+}
