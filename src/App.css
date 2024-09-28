@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI';
+}
+/* src/styles/App.css */
+.Home {
+  margin-top: -3rem;
+  background-image: url(./images/image.png);
+  background-size: cover;
+  height: 104vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Home h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  color: aliceblue;
+  /* width: 50%; */
+  text-align: left;
+  margin: -1.3rem;
+  padding: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+aside {
+  display: flex;
+  flex-direction: column;
+}
+span {
+  margin-top: -1rem;
+  padding: 0;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #f5f5f5;
+}
+
+.container {
+  margin: -3rem 0 0 0;
+  text-align: center;
+  
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  background: #ffffff00;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  margin: 1rem;
+}
+.logo {
+  font-size: 2rem;
+}
+
+a {
+  color: #fefefe;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.tile-container {
+  width:80%;
+  height: 15rem;
+  display: flex;
+  /* background-color: red; */
+  margin-top: -4rem;
+  /* justify-content: s; */
+}
+.tile-container div {
+  width: 40rem;
+  height: 15rem;
+  margin: 0rem 2rem;
+  padding: 2rem;
+  background: #a55821;
+  border-radius: 14px;
+
+}
+
+.About {
+  margin-top: -4rem;
+  background-image: url(./images/background.png);
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.mission {
+  text-align: left;
+  width: 30%;
+  align-self: flex-start;
+  margin-top: 7rem
+}
+.vision h1{
+  color: #1b1b1b;
+}
+.mission h1{
+  color: #1b1b1b;
+}
+.mission p, .vision p {
+  color: hsl(0, 0%, 14%);
+}
+.vision {
+  text-align: left;
+  align-self: flex-end;
+  width: 30%;
+  margin-bottom: -3rem;
+
+}
+.about-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+.about-title {
+  color: #fefefe;
+  font-size: 6rem;
+  z-index: 1;
+}
+.about-mv {
+  margin-top: 3rem;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+footer {
+  width: 100%;
+  margin-top: 7rem;
+  background: hsl(0, 0%, 86%);
+}
+
+.Home, .About {
+  padding-top: 8rem; 
+}
+.contacts {
+  background-image: url(./images/contact.png);
+  margin-top: 5rem;
+  margin-bottom: -4rem;
+  background-size: cover;
+  border-radius: 14px;
+  aspect-ratio: 3/4;
+  height: 20vh;
+  width: 100%;
+}
